@@ -1,167 +1,260 @@
-from __future__ import print_function
-import argparse
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 import torch.optim as optim
-from torchvision import datasets, transforms
-from torch.autograd import Variable
 import dni
+import numpy as np
+from torchsummary import summary
+from matplotlib import pyplot as plt
 
-# Training settings
-parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
-parser.add_argument('--batch-size', type=int, default=64, metavar='N',
-                    help='input batch size for training (default: 64)')
-parser.add_argument('--test-batch-size', type=int, default=1000, metavar='N',
-                    help='input batch size for testing (default: 1000)')
-parser.add_argument('--epochs', type=int, default=10, metavar='N',
-                    help='number of epochs to train (default: 10)')
-parser.add_argument('--lr', type=float, default=0.001, metavar='LR',
-                    help='learning rate (default: 0.001)')
-parser.add_argument('--no-cuda', action='store_true', default=False,
-                    help='disables CUDA training')
-parser.add_argument('--seed', type=int, default=1, metavar='S',
-                    help='random seed (default: 1)')
-parser.add_argument('--log-interval', type=int, default=10, metavar='N',
-                    help='how many batches to wait before logging training status')
-parser.add_argument('--dni', action='store_true', default=False,
-                    help='enable DNI')
-parser.add_argument('--context', action='store_true', default=False,
-                    help='enable context (label conditioning) in DNI')
-args = parser.parse_args()
-args.cuda = not args.no_cuda and torch.cuda.is_available()
+import torch.nn.functional as F
 
-torch.manual_seed(args.seed)
-if args.cuda:
-    torch.cuda.manual_seed(args.seed)
+from torchvision.models.resnet import ResNet, Bottleneck
 
+num_classes = 1000
 
-kwargs = {'num_workers': 1, 'pin_memory': True} if args.cuda else {}
-train_loader = torch.utils.data.DataLoader(
-    datasets.MNIST('../data', train=True, download=True,
-                   transform=transforms.Compose([
-                       transforms.ToTensor(),
-                       transforms.Normalize((0.1307,), (0.3081,))
-                   ])),
-    batch_size=args.batch_size, shuffle=True, **kwargs)
-test_loader = torch.utils.data.DataLoader(
-    datasets.MNIST('../data', train=False, transform=transforms.Compose([
-                       transforms.ToTensor(),
-                       transforms.Normalize((0.1307,), (0.3081,))
-                   ])),
-    batch_size=args.test_batch_size, shuffle=True, **kwargs)
+class mcf(ResNet):
+    def __init__(self, *args, **kwargs):
+        super(mcf, self).__init__(
+            Bottleneck, [3, 4, 6, 3], num_classes=num_classes, *args, **kwargs)
 
+        self.seq2 = nn.Sequential(
+            self.layer3,
+            self.layer4,
+            self.avgpool,
+        ).to('cpu')
 
-def one_hot(indexes, n_classes):
-    result = torch.FloatTensor(indexes.size() + (n_classes,))
-    if args.cuda:
-        result = result.cuda()
-    result.zero_()
-    indexes_rank = len(indexes.size())
-    result.scatter_(
-        dim=indexes_rank,
-        index=indexes.data.unsqueeze(dim=indexes_rank),
-        value=1
-    )
-    return Variable(result)
+        self.fc.to('cpu')
 
+    def forward(self, x):
+        x = self.seq2(x.to('cpu'))
 
-class Net(nn.Module):
-    def __init__(self):
-        super(Net, self).__init__()
-        self.conv1 = nn.Conv2d(1, 10, kernel_size=5)
-        self.conv1_bn = nn.BatchNorm2d(10)
-        self.conv2 = nn.Conv2d(10, 20, kernel_size=5)
-        self.conv2_bn = nn.BatchNorm2d(20)
-        self.conv2_drop = nn.Dropout2d()
-        if args.dni:
-            self.backward_interface = dni.BackwardInterface(ConvSynthesizer())
-        self.fc1 = nn.Linear(320, 50)
-        self.fc1_bn = nn.BatchNorm1d(50)
-        self.fc2 = nn.Linear(50, 10)
-        self.fc2_bn = nn.BatchNorm1d(10)
-
-    def forward(self, x, y=None):
-        x = F.relu(F.max_pool2d(self.conv1_bn(self.conv1(x)), 2))
-        x = F.max_pool2d(self.conv2_drop(self.conv2_bn(self.conv2(x))), 2)
-        if args.dni and self.training:
-            if args.context:
-                context = one_hot(y, 10)
-            else:
-                context = None
-            with dni.synthesizer_context(context):
-                x = self.backward_interface(x)
-        x = F.relu(x)
-        x = x.view(-1, 320)
-        x = F.relu(self.fc1_bn(self.fc1(x)))
-        x = F.dropout(x, training=self.training)
-        x = self.fc2_bn(self.fc2(x))
-        return F.log_softmax(x)
+        return self.fc(x.view(x.size(0), -1))
 
 
 class ConvSynthesizer(nn.Module):
     def __init__(self):
         super(ConvSynthesizer, self).__init__()
-        self.input_trigger = nn.Conv2d(20, 20, kernel_size=5, padding=2)
-        self.input_context = nn.Linear(10, 20)
-        self.hidden = nn.Conv2d(20, 20, kernel_size=5, padding=2)
-        self.output = nn.Conv2d(20, 20, kernel_size=5, padding=2)
+        self.input_trigger = nn.Conv2d(512, 512, kernel_size=5, padding=2)
+        self.bn = nn.BatchNorm2d(512)
+        self.input_context = nn.Linear(10, 16)
+        self.hidden = nn.Conv2d(512, 512, kernel_size=5, padding=2)
+        self.output = nn.Conv2d(512, 512, kernel_size=5, padding=2)
         # zero-initialize the last layer, as in the paper
-        nn.init.constant(self.output.weight, 0)
+        nn.init.constant(self.input_trigger.weight, 0)
 
     def forward(self, trigger, context):
         x = self.input_trigger(trigger)
+        x = self.bn(x)
+        #x = self.hidden(x)
+        #x = self.output(x)
         if context is not None:
             x += (
                 self.input_context(context).unsqueeze(2)
                                            .unsqueeze(3)
                                            .expand_as(x)
             )
-        x = self.hidden(F.relu(x))
-        return self.output(F.relu(x))
+        return x
 
 
-model = Net()
-if args.cuda:
-    model.cuda()
 
-optimizer = optim.Adam(model.parameters(), lr=args.lr)
+class ModelParallelResNet50(ResNet):
+    def __init__(self, *args, **kwargs):
+        super(ModelParallelResNet50, self).__init__(
+            Bottleneck, [3, 4, 6, 3], num_classes=num_classes, *args, **kwargs)
 
-def train(epoch):
-    model.train()
-    for batch_idx, (data, target) in enumerate(train_loader):
-        if args.cuda:
-            data, target = data.cuda(), target.cuda()
-        data, target = Variable(data), Variable(target)
+        self.seq1 = nn.Sequential(
+            self.conv1,
+            self.bn1,
+            self.relu,
+            self.maxpool,
+
+            self.layer1,
+            self.layer2
+        ).to('cpu')
+
+        # self.input_context = nn.Linear(10, 16)
+
+        #self.input_trigger = nn.Conv2d(512, 512, kernel_size=5, padding=2)
+        #self.hidden = nn.Conv2d(512, 512, kernel_size=5, padding=2)
+        #self.output = nn.Conv2d(512, 512, kernel_size=5, padding=2)
+
+        context_dim = None
+        self.backward_interface = dni.BackwardInterface(ConvSynthesizer())
+
+        #self.backward_interface = dni.BackwardInterface( dni.BasicSynthesizer(mcf()))
+
+        self.seq2 = nn.Sequential(
+            self.layer3,
+            self.layer4,
+            self.avgpool,
+        ).to('cuda:0')
+
+        self.fc.to('cuda:0')
+
+    def forward(self, x):
+        x = self.seq1(x)
+        #print(x.shape)
+        context = None
+        with dni.synthesizer_context(context):
+          x = self.backward_interface(x)
+
+        #x = self.input_trigger(x)
+        #x = self.hidden(x)
+        #x = self.output(x)
+
+        x = self.seq2(x.to('cuda:0'))
+
+        return self.fc(x.view(x.size(0), -1))
+
+import torchvision.models as models
+
+num_batches = 100
+batch_size = 120
+image_w = 128
+image_h = 128
+mf_network = []
+ori_network = []
+
+num_repeat = 1
+
+
+def train(model):
+    print('once')
+    model.train(True)
+    loss_fn = nn.MSELoss()
+    optimizer = optim.SGD(model.parameters(), lr=0.001)
+
+    loss_av = 0
+
+    one_hot_indices = torch.LongTensor(batch_size) \
+                           .random_(0, num_classes) \
+                           .view(batch_size, 1)
+
+    for _ in range(num_batches):
+        # generate random inputs and labels
+        inputs = torch.randn(batch_size, 3, image_w, image_h)
+        labels = torch.zeros(batch_size, num_classes) \
+                      .scatter_(1, one_hot_indices, 1)
+
+        # run forward pass
         optimizer.zero_grad()
-        output = model(data, target)
-        loss = F.nll_loss(output, target)
+        outputs = model(inputs.to('cpu'))
+        #print('outputs', outputs)
+
+        # run backward pass
+        labels = labels.to(outputs.device)
+        #print('labels',labels)
+
+        loss = loss_fn(outputs, labels)
         loss.backward()
+
+        #print('loss', loss)
+        #loss_av += loss
+        if len(mf_network) > (num_batches - 1):
+            ori_network.append(loss)
+        else:
+            print('loss', loss)
+            mf_network.append(loss)
         optimizer.step()
-        if batch_idx % args.log_interval == 0:
-            print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
-                epoch, batch_idx * len(data), len(train_loader.dataset),
-                100. * batch_idx / len(train_loader), loss.data))
-
-def test():
-    model.eval()
-    test_loss = 0
-    correct = 0
-    for data, target in test_loader:
-        if args.cuda:
-            data, target = data.cuda(), target.cuda()
-        data, target = Variable(data, volatile=True), Variable(target)
-        output = model(data)
-        test_loss += F.nll_loss(output, target, size_average=False).data # sum up batch loss
-        pred = output.data.max(1, keepdim=True)[1] # get the index of the max log-probability
-        correct += pred.eq(target.data.view_as(pred)).cpu().sum()
-
-    test_loss /= len(test_loader.dataset)
-    print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
-        test_loss, correct, len(test_loader.dataset),
-        100. * correct / len(test_loader.dataset)))
 
 
-for epoch in range(1, args.epochs + 1):
-    train(epoch)
-    test()
+    #loss_av = loss_av/num_batches
+
+
+
+import matplotlib.pyplot as plt
+plt.switch_backend('Agg')
+import numpy as np
+import timeit
+
+
+
+
+stmt = "train(model)"
+
+
+
+
+class mcd(ResNet):
+    def __init__(self, *args, **kwargs):
+        super(mcd, self).__init__(
+            Bottleneck, [3, 4, 6, 3], num_classes=num_classes, *args, **kwargs)
+
+        self.seq1 = nn.Sequential(
+            self.conv1,
+            self.bn1,
+            self.relu,
+            self.maxpool,
+
+            self.layer1,
+            self.layer2
+        ).to('cuda:0')
+
+        self.seq2 = nn.Sequential(
+            self.layer3,
+            self.layer4,
+            self.avgpool,
+        ).to('cuda:0')
+
+        self.fc.to('cuda:0')
+
+    def forward(self, x):
+        x = self.seq2(self.seq1(x).to('cuda:0'))
+        return self.fc(x.view(x.size(0), -1))
+
+
+
+
+model = mcd()
+summary(model, (3, 128, 128))
+print('seperation')
+#model = ModelParallelResNet50()
+#summary(model, (3, 128, 128))
+
+
+
+setup = "model = ModelParallelResNet50()"
+# globals arg is only available in Python 3. In Python 2, use the following
+# import __builtin__
+# __builtin__.__dict__.update(locals())
+mp_run_times = timeit.repeat(
+    stmt, setup, number=1, repeat=num_repeat, globals=globals())
+mp_mean, mp_std = np.mean(mp_run_times), np.std(mp_run_times)
+
+setup = "import torchvision.models as models;" + \
+        "model = models.resnet50(num_classes=num_classes).to('cpu')"
+rn_run_times = timeit.repeat(
+    stmt, setup, number=1, repeat=num_repeat, globals=globals())
+rn_mean, rn_std = np.mean(rn_run_times), np.std(rn_run_times)
+
+plt.switch_backend('TkAgg')
+
+a = np.linspace(1, num_batches, num_batches)
+plt.plot(a, mf_network)
+plt.title('mixed model')
+plt.show()
+
+
+plt.plot(a, ori_network)
+plt.title('original')
+plt.show()
+
+
+
+def plot(means, stds, labels, fig_name):
+    fig, ax = plt.subplots()
+    ax.bar(np.arange(len(means)), means, yerr=stds,
+           align='center', alpha=0.5, ecolor='red', capsize=10, width=0.6)
+    ax.set_ylabel('ResNet50 Execution Time (Second)')
+    ax.set_xticks(np.arange(len(means)))
+    ax.set_xticklabels(labels)
+    ax.yaxis.grid(True)
+    plt.tight_layout()
+    plt.savefig(fig_name)
+    plt.close(fig)
+
+
+plot([mp_mean, rn_mean],
+     [mp_std, rn_std],
+     ['Model Parallel', 'Single GPU'],
+     'mp_vs_rn.png')

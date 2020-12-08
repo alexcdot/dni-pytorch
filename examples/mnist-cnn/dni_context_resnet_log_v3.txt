@@ -1,0 +1,1016 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Train Epoch: 1 [0/50000 (0%)]	Loss: 2.527888
+Train Epoch: 1 [640/50000 (1%)]	Loss: 3.372448
+Train Epoch: 1 [1280/50000 (3%)]	Loss: 2.837282
+with seq 1, GPU mem: 700027904
+with seq 2, GPU mem: 700027904
+Train Epoch: 1 [1920/50000 (4%)]	Loss: 2.105032
+Train Epoch: 1 [2560/50000 (5%)]	Loss: 2.622560
+Train Epoch: 1 [3200/50000 (6%)]	Loss: 1.998724
+Train Epoch: 1 [3840/50000 (8%)]	Loss: 1.974632
+Train Epoch: 1 [4480/50000 (9%)]	Loss: 1.988858
+Train Epoch: 1 [5120/50000 (10%)]	Loss: 2.106982
+Train Epoch: 1 [5760/50000 (12%)]	Loss: 1.765942
+Train Epoch: 1 [6400/50000 (13%)]	Loss: 2.287511
+Train Epoch: 1 [7040/50000 (14%)]	Loss: 1.816640
+Train Epoch: 1 [7680/50000 (15%)]	Loss: 1.717012
+Train Epoch: 1 [8320/50000 (17%)]	Loss: 1.767658
+Train Epoch: 1 [8960/50000 (18%)]	Loss: 1.996055
+Train Epoch: 1 [9600/50000 (19%)]	Loss: 1.851488
+Train Epoch: 1 [10240/50000 (20%)]	Loss: 1.845454
+Train Epoch: 1 [10880/50000 (22%)]	Loss: 2.332066
+Train Epoch: 1 [11520/50000 (23%)]	Loss: 1.876261
+Train Epoch: 1 [12160/50000 (24%)]	Loss: 1.840893
+Train Epoch: 1 [12800/50000 (26%)]	Loss: 1.768385
+Train Epoch: 1 [13440/50000 (27%)]	Loss: 1.930782
+Train Epoch: 1 [14080/50000 (28%)]	Loss: 1.741629
+Train Epoch: 1 [14720/50000 (29%)]	Loss: 2.622592
+Train Epoch: 1 [15360/50000 (31%)]	Loss: 1.952269
+Train Epoch: 1 [16000/50000 (32%)]	Loss: 1.961807
+Train Epoch: 1 [16640/50000 (33%)]	Loss: 2.128388
+Train Epoch: 1 [17280/50000 (35%)]	Loss: 1.943057
+Train Epoch: 1 [17920/50000 (36%)]	Loss: 2.442952
+Train Epoch: 1 [18560/50000 (37%)]	Loss: 1.818469
+with seq 1, GPU mem: 700027904
+with seq 2, GPU mem: 700027904
+with seq 1, GPU mem: 700027904
+with seq 2, GPU mem: 700027904
+Train Epoch: 1 [19200/50000 (38%)]	Loss: 2.090051
+Train Epoch: 1 [19840/50000 (40%)]	Loss: 2.009645
+Train Epoch: 1 [20480/50000 (41%)]	Loss: 1.892111
+Train Epoch: 1 [21120/50000 (42%)]	Loss: 2.028587
+Train Epoch: 1 [21760/50000 (43%)]	Loss: 1.551066
+Train Epoch: 1 [22400/50000 (45%)]	Loss: 1.838011
+Train Epoch: 1 [23040/50000 (46%)]	Loss: 1.795307
+Train Epoch: 1 [23680/50000 (47%)]	Loss: 1.789624
+Train Epoch: 1 [24320/50000 (49%)]	Loss: 1.543936
+Train Epoch: 1 [24960/50000 (50%)]	Loss: 1.968961
+Train Epoch: 1 [25600/50000 (51%)]	Loss: 1.796320
+Train Epoch: 1 [26240/50000 (52%)]	Loss: 1.677213
+Train Epoch: 1 [26880/50000 (54%)]	Loss: 1.688838
+Train Epoch: 1 [27520/50000 (55%)]	Loss: 1.807963
+Train Epoch: 1 [28160/50000 (56%)]	Loss: 2.016028
+Train Epoch: 1 [28800/50000 (58%)]	Loss: 1.722208
+Train Epoch: 1 [29440/50000 (59%)]	Loss: 1.752669
+Train Epoch: 1 [30080/50000 (60%)]	Loss: 1.891044
+Train Epoch: 1 [30720/50000 (61%)]	Loss: 1.700024
+Train Epoch: 1 [31360/50000 (63%)]	Loss: 1.700802
+Train Epoch: 1 [32000/50000 (64%)]	Loss: 2.311246
+Train Epoch: 1 [32640/50000 (65%)]	Loss: 1.683767
+Train Epoch: 1 [33280/50000 (66%)]	Loss: 1.629885
+Train Epoch: 1 [33920/50000 (68%)]	Loss: 1.739225
+Train Epoch: 1 [34560/50000 (69%)]	Loss: 2.179493
+with seq 1, GPU mem: 700027904
+with seq 2, GPU mem: 700027904
+Train Epoch: 1 [35200/50000 (70%)]	Loss: 1.752200
+Train Epoch: 1 [35840/50000 (72%)]	Loss: 1.417804
+Train Epoch: 1 [36480/50000 (73%)]	Loss: 1.686950
+Train Epoch: 1 [37120/50000 (74%)]	Loss: 1.744961
+Train Epoch: 1 [37760/50000 (75%)]	Loss: 2.098330
+Train Epoch: 1 [38400/50000 (77%)]	Loss: 2.052814
+Train Epoch: 1 [39040/50000 (78%)]	Loss: 3.198774
+Train Epoch: 1 [39680/50000 (79%)]	Loss: 1.812412
+Train Epoch: 1 [40320/50000 (81%)]	Loss: 2.015485
+Train Epoch: 1 [40960/50000 (82%)]	Loss: 1.667842
+Train Epoch: 1 [41600/50000 (83%)]	Loss: 1.788137
+Train Epoch: 1 [42240/50000 (84%)]	Loss: 1.608934
+Train Epoch: 1 [42880/50000 (86%)]	Loss: 2.058991
+Train Epoch: 1 [43520/50000 (87%)]	Loss: 1.892619
+Train Epoch: 1 [44160/50000 (88%)]	Loss: 1.750463
+Train Epoch: 1 [44800/50000 (90%)]	Loss: 1.593578
+Train Epoch: 1 [45440/50000 (91%)]	Loss: 1.896439
+with seq 1, GPU mem: 700027904
+with seq 2, GPU mem: 700027904
+Train Epoch: 1 [46080/50000 (92%)]	Loss: 1.860579
+Train Epoch: 1 [46720/50000 (93%)]	Loss: 1.530903
+Train Epoch: 1 [47360/50000 (95%)]	Loss: 1.638248
+Train Epoch: 1 [48000/50000 (96%)]	Loss: 1.784107
+Train Epoch: 1 [48640/50000 (97%)]	Loss: 1.988752
+Train Epoch: 1 [49280/50000 (98%)]	Loss: 1.665049
+Train Epoch: 1 [49920/50000 (100%)]	Loss: 1.826675
+Train time for 1 epoch: 298.6865499019623
+with seq 1, GPU mem: 1666707968
+with seq 2, GPU mem: 1666707968
+with seq 1, GPU mem: 1666707968
+with seq 2, GPU mem: 1666707968
+
+Test set: Average loss: 3.1348, Accuracy: 3995/10000 (39%)
+
+Test time for 1 epoch: 11.691645860671997
+Train Epoch: 2 [0/50000 (0%)]	Loss: 1.639558
+Train Epoch: 2 [640/50000 (1%)]	Loss: 2.152802
+Train Epoch: 2 [1280/50000 (3%)]	Loss: 1.635774
+Train Epoch: 2 [1920/50000 (4%)]	Loss: 1.456472
+Train Epoch: 2 [2560/50000 (5%)]	Loss: 1.510951
+Train Epoch: 2 [3200/50000 (6%)]	Loss: 1.440298
+Train Epoch: 2 [3840/50000 (8%)]	Loss: 2.047900
+Train Epoch: 2 [4480/50000 (9%)]	Loss: 1.917923
+Train Epoch: 2 [5120/50000 (10%)]	Loss: 1.554536
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 2 [5760/50000 (12%)]	Loss: 1.837875
+Train Epoch: 2 [6400/50000 (13%)]	Loss: 2.418886
+Train Epoch: 2 [7040/50000 (14%)]	Loss: 1.640196
+Train Epoch: 2 [7680/50000 (15%)]	Loss: 2.207598
+Train Epoch: 2 [8320/50000 (17%)]	Loss: 1.778206
+Train Epoch: 2 [8960/50000 (18%)]	Loss: 1.384860
+Train Epoch: 2 [9600/50000 (19%)]	Loss: 1.687107
+Train Epoch: 2 [10240/50000 (20%)]	Loss: 1.758919
+Train Epoch: 2 [10880/50000 (22%)]	Loss: 2.437582
+Train Epoch: 2 [11520/50000 (23%)]	Loss: 2.032353
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 2 [12160/50000 (24%)]	Loss: 1.589033
+Train Epoch: 2 [12800/50000 (26%)]	Loss: 1.771562
+Train Epoch: 2 [13440/50000 (27%)]	Loss: 2.076772
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 2 [14080/50000 (28%)]	Loss: 2.177622
+Train Epoch: 2 [14720/50000 (29%)]	Loss: 1.973193
+Train Epoch: 2 [15360/50000 (31%)]	Loss: 1.663032
+Train Epoch: 2 [16000/50000 (32%)]	Loss: 1.830958
+Train Epoch: 2 [16640/50000 (33%)]	Loss: 1.412404
+Train Epoch: 2 [17280/50000 (35%)]	Loss: 1.618559
+Train Epoch: 2 [17920/50000 (36%)]	Loss: 1.577896
+Train Epoch: 2 [18560/50000 (37%)]	Loss: 1.631994
+Train Epoch: 2 [19200/50000 (38%)]	Loss: 1.633311
+Train Epoch: 2 [19840/50000 (40%)]	Loss: 2.016163
+Train Epoch: 2 [20480/50000 (41%)]	Loss: 2.026905
+Train Epoch: 2 [21120/50000 (42%)]	Loss: 1.698834
+Train Epoch: 2 [21760/50000 (43%)]	Loss: 1.544871
+Train Epoch: 2 [22400/50000 (45%)]	Loss: 1.631484
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 2 [23040/50000 (46%)]	Loss: 1.723317
+Train Epoch: 2 [23680/50000 (47%)]	Loss: 1.802759
+Train Epoch: 2 [24320/50000 (49%)]	Loss: 1.495944
+Train Epoch: 2 [24960/50000 (50%)]	Loss: 1.600620
+Train Epoch: 2 [25600/50000 (51%)]	Loss: 1.659188
+Train Epoch: 2 [26240/50000 (52%)]	Loss: 1.377339
+Train Epoch: 2 [26880/50000 (54%)]	Loss: 1.561826
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 2 [27520/50000 (55%)]	Loss: 2.293767
+Train Epoch: 2 [28160/50000 (56%)]	Loss: 1.502254
+Train Epoch: 2 [28800/50000 (58%)]	Loss: 2.021988
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 2 [29440/50000 (59%)]	Loss: 2.196308
+Train Epoch: 2 [30080/50000 (60%)]	Loss: 1.791019
+Train Epoch: 2 [30720/50000 (61%)]	Loss: 1.843740
+Train Epoch: 2 [31360/50000 (63%)]	Loss: 1.653845
+Train Epoch: 2 [32000/50000 (64%)]	Loss: 1.981507
+Train Epoch: 2 [32640/50000 (65%)]	Loss: 1.795684
+Train Epoch: 2 [33280/50000 (66%)]	Loss: 2.092295
+Train Epoch: 2 [33920/50000 (68%)]	Loss: 1.803221
+Train Epoch: 2 [34560/50000 (69%)]	Loss: 1.532569
+Train Epoch: 2 [35200/50000 (70%)]	Loss: 1.737902
+Train Epoch: 2 [35840/50000 (72%)]	Loss: 1.695346
+Train Epoch: 2 [36480/50000 (73%)]	Loss: 2.065591
+Train Epoch: 2 [37120/50000 (74%)]	Loss: 1.480864
+Train Epoch: 2 [37760/50000 (75%)]	Loss: 1.426564
+Train Epoch: 2 [38400/50000 (77%)]	Loss: 1.790121
+Train Epoch: 2 [39040/50000 (78%)]	Loss: 1.756567
+Train Epoch: 2 [39680/50000 (79%)]	Loss: 1.955431
+Train Epoch: 2 [40320/50000 (81%)]	Loss: 1.648780
+Train Epoch: 2 [40960/50000 (82%)]	Loss: 1.546120
+Train Epoch: 2 [41600/50000 (83%)]	Loss: 1.797311
+Train Epoch: 2 [42240/50000 (84%)]	Loss: 1.824575
+Train Epoch: 2 [42880/50000 (86%)]	Loss: 1.590374
+Train Epoch: 2 [43520/50000 (87%)]	Loss: 1.612245
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 2 [44160/50000 (88%)]	Loss: 1.534524
+Train Epoch: 2 [44800/50000 (90%)]	Loss: 1.644884
+Train Epoch: 2 [45440/50000 (91%)]	Loss: 1.807039
+Train Epoch: 2 [46080/50000 (92%)]	Loss: 1.945879
+Train Epoch: 2 [46720/50000 (93%)]	Loss: 1.942932
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 2 [47360/50000 (95%)]	Loss: 1.646216
+Train Epoch: 2 [48000/50000 (96%)]	Loss: 1.695487
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 2 [48640/50000 (97%)]	Loss: 1.606749
+Train Epoch: 2 [49280/50000 (98%)]	Loss: 1.727218
+Train Epoch: 2 [49920/50000 (100%)]	Loss: 1.789183
+Train time for 1 epoch: 312.50517225265503
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+
+Test set: Average loss: 1.9821, Accuracy: 3924/10000 (39%)
+
+Test time for 1 epoch: 11.923124551773071
+Train Epoch: 3 [0/50000 (0%)]	Loss: 1.708510
+Train Epoch: 3 [640/50000 (1%)]	Loss: 1.680423
+Train Epoch: 3 [1280/50000 (3%)]	Loss: 1.540635
+Train Epoch: 3 [1920/50000 (4%)]	Loss: 1.897606
+Train Epoch: 3 [2560/50000 (5%)]	Loss: 1.976723
+Train Epoch: 3 [3200/50000 (6%)]	Loss: 1.460791
+Train Epoch: 3 [3840/50000 (8%)]	Loss: 1.895098
+Train Epoch: 3 [4480/50000 (9%)]	Loss: 1.707204
+Train Epoch: 3 [5120/50000 (10%)]	Loss: 1.527058
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 3 [5760/50000 (12%)]	Loss: 1.928893
+Train Epoch: 3 [6400/50000 (13%)]	Loss: 1.839839
+Train Epoch: 3 [7040/50000 (14%)]	Loss: 1.984690
+Train Epoch: 3 [7680/50000 (15%)]	Loss: 2.105899
+Train Epoch: 3 [8320/50000 (17%)]	Loss: 1.841759
+Train Epoch: 3 [8960/50000 (18%)]	Loss: 1.662794
+Train Epoch: 3 [9600/50000 (19%)]	Loss: 1.714582
+Train Epoch: 3 [10240/50000 (20%)]	Loss: 1.583875
+Train Epoch: 3 [10880/50000 (22%)]	Loss: 2.136208
+Train Epoch: 3 [11520/50000 (23%)]	Loss: 1.936122
+Train Epoch: 3 [12160/50000 (24%)]	Loss: 1.774505
+Train Epoch: 3 [12800/50000 (26%)]	Loss: 1.773340
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 3 [13440/50000 (27%)]	Loss: 1.991659
+Train Epoch: 3 [14080/50000 (28%)]	Loss: 1.628279
+Train Epoch: 3 [14720/50000 (29%)]	Loss: 1.490142
+Train Epoch: 3 [15360/50000 (31%)]	Loss: 1.908767
+Train Epoch: 3 [16000/50000 (32%)]	Loss: 2.184069
+Train Epoch: 3 [16640/50000 (33%)]	Loss: 1.853890
+Train Epoch: 3 [17280/50000 (35%)]	Loss: 1.928272
+Train Epoch: 3 [17920/50000 (36%)]	Loss: 1.801626
+Train Epoch: 3 [18560/50000 (37%)]	Loss: 1.810375
+Train Epoch: 3 [19200/50000 (38%)]	Loss: 1.912384
+Train Epoch: 3 [19840/50000 (40%)]	Loss: 1.704342
+Train Epoch: 3 [20480/50000 (41%)]	Loss: 1.641322
+Train Epoch: 3 [21120/50000 (42%)]	Loss: 1.630834
+Train Epoch: 3 [21760/50000 (43%)]	Loss: 1.625067
+Train Epoch: 3 [22400/50000 (45%)]	Loss: 1.669625
+Train Epoch: 3 [23040/50000 (46%)]	Loss: 1.683174
+Train Epoch: 3 [23680/50000 (47%)]	Loss: 1.436914
+Train Epoch: 3 [24320/50000 (49%)]	Loss: 1.639296
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 3 [24960/50000 (50%)]	Loss: 2.068610
+Train Epoch: 3 [25600/50000 (51%)]	Loss: 1.896802
+Train Epoch: 3 [26240/50000 (52%)]	Loss: 1.825971
+Train Epoch: 3 [26880/50000 (54%)]	Loss: 1.691624
+Train Epoch: 3 [27520/50000 (55%)]	Loss: 1.641340
+Train Epoch: 3 [28160/50000 (56%)]	Loss: 1.611516
+Train Epoch: 3 [28800/50000 (58%)]	Loss: 1.683673
+Train Epoch: 3 [29440/50000 (59%)]	Loss: 1.409178
+Train Epoch: 3 [30080/50000 (60%)]	Loss: 1.705035
+Train Epoch: 3 [30720/50000 (61%)]	Loss: 1.344386
+Train Epoch: 3 [31360/50000 (63%)]	Loss: 1.703972
+Train Epoch: 3 [32000/50000 (64%)]	Loss: 1.342368
+Train Epoch: 3 [32640/50000 (65%)]	Loss: 1.500544
+Train Epoch: 3 [33280/50000 (66%)]	Loss: 1.422085
+Train Epoch: 3 [33920/50000 (68%)]	Loss: 1.423681
+Train Epoch: 3 [34560/50000 (69%)]	Loss: 1.912292
+Train Epoch: 3 [35200/50000 (70%)]	Loss: 1.625720
+Train Epoch: 3 [35840/50000 (72%)]	Loss: 1.758832
+Train Epoch: 3 [36480/50000 (73%)]	Loss: 1.798367
+Train Epoch: 3 [37120/50000 (74%)]	Loss: 1.749238
+Train Epoch: 3 [37760/50000 (75%)]	Loss: 1.540734
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 3 [38400/50000 (77%)]	Loss: 1.565752
+Train Epoch: 3 [39040/50000 (78%)]	Loss: 1.508670
+Train Epoch: 3 [39680/50000 (79%)]	Loss: 1.300383
+Train Epoch: 3 [40320/50000 (81%)]	Loss: 1.592614
+Train Epoch: 3 [40960/50000 (82%)]	Loss: 2.054675
+Train Epoch: 3 [41600/50000 (83%)]	Loss: 1.592897
+Train Epoch: 3 [42240/50000 (84%)]	Loss: 1.384588
+Train Epoch: 3 [42880/50000 (86%)]	Loss: 1.367808
+Train Epoch: 3 [43520/50000 (87%)]	Loss: 1.668961
+Train Epoch: 3 [44160/50000 (88%)]	Loss: 1.595812
+Train Epoch: 3 [44800/50000 (90%)]	Loss: 1.697095
+Train Epoch: 3 [45440/50000 (91%)]	Loss: 1.814016
+Train Epoch: 3 [46080/50000 (92%)]	Loss: 1.519399
+Train Epoch: 3 [46720/50000 (93%)]	Loss: 1.474911
+Train Epoch: 3 [47360/50000 (95%)]	Loss: 1.535621
+Train Epoch: 3 [48000/50000 (96%)]	Loss: 1.458176
+Train Epoch: 3 [48640/50000 (97%)]	Loss: 1.458295
+Train Epoch: 3 [49280/50000 (98%)]	Loss: 1.337860
+Train Epoch: 3 [49920/50000 (100%)]	Loss: 1.446129
+Train time for 1 epoch: 310.90366554260254
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+
+Test set: Average loss: 1.8116, Accuracy: 4457/10000 (44%)
+
+Test time for 1 epoch: 11.523132801055908
+Train Epoch: 4 [0/50000 (0%)]	Loss: 1.719276
+Train Epoch: 4 [640/50000 (1%)]	Loss: 1.548229
+Train Epoch: 4 [1280/50000 (3%)]	Loss: 1.452122
+Train Epoch: 4 [1920/50000 (4%)]	Loss: 1.716920
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 4 [2560/50000 (5%)]	Loss: 1.579340
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 4 [3200/50000 (6%)]	Loss: 1.749428
+Train Epoch: 4 [3840/50000 (8%)]	Loss: 1.582353
+Train Epoch: 4 [4480/50000 (9%)]	Loss: 1.578438
+Train Epoch: 4 [5120/50000 (10%)]	Loss: 1.427669
+Train Epoch: 4 [5760/50000 (12%)]	Loss: 1.598329
+Train Epoch: 4 [6400/50000 (13%)]	Loss: 1.540071
+Train Epoch: 4 [7040/50000 (14%)]	Loss: 1.257645
+Train Epoch: 4 [7680/50000 (15%)]	Loss: 1.471347
+Train Epoch: 4 [8320/50000 (17%)]	Loss: 1.493170
+Train Epoch: 4 [8960/50000 (18%)]	Loss: 1.844282
+Train Epoch: 4 [9600/50000 (19%)]	Loss: 1.684393
+Train Epoch: 4 [10240/50000 (20%)]	Loss: 1.624257
+Train Epoch: 4 [10880/50000 (22%)]	Loss: 1.616284
+Train Epoch: 4 [11520/50000 (23%)]	Loss: 1.508298
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 4 [12160/50000 (24%)]	Loss: 1.297731
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 4 [12800/50000 (26%)]	Loss: 1.764923
+Train Epoch: 4 [13440/50000 (27%)]	Loss: 1.697846
+Train Epoch: 4 [14080/50000 (28%)]	Loss: 1.379964
+Train Epoch: 4 [14720/50000 (29%)]	Loss: 1.262873
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 4 [15360/50000 (31%)]	Loss: 1.709005
+Train Epoch: 4 [16000/50000 (32%)]	Loss: 1.955706
+Train Epoch: 4 [16640/50000 (33%)]	Loss: 1.857147
+Train Epoch: 4 [17280/50000 (35%)]	Loss: 1.531393
+Train Epoch: 4 [17920/50000 (36%)]	Loss: 1.572054
+Train Epoch: 4 [18560/50000 (37%)]	Loss: 1.553794
+Train Epoch: 4 [19200/50000 (38%)]	Loss: 1.322256
+Train Epoch: 4 [19840/50000 (40%)]	Loss: 1.452080
+Train Epoch: 4 [20480/50000 (41%)]	Loss: 1.583565
+Train Epoch: 4 [21120/50000 (42%)]	Loss: 1.612487
+Train Epoch: 4 [21760/50000 (43%)]	Loss: 1.452907
+Train Epoch: 4 [22400/50000 (45%)]	Loss: 1.712832
+Train Epoch: 4 [23040/50000 (46%)]	Loss: 1.805707
+Train Epoch: 4 [23680/50000 (47%)]	Loss: 1.773640
+Train Epoch: 4 [24320/50000 (49%)]	Loss: 1.665375
+Train Epoch: 4 [24960/50000 (50%)]	Loss: 1.539259
+Train Epoch: 4 [25600/50000 (51%)]	Loss: 1.740546
+Train Epoch: 4 [26240/50000 (52%)]	Loss: 1.456859
+Train Epoch: 4 [26880/50000 (54%)]	Loss: 1.493448
+Train Epoch: 4 [27520/50000 (55%)]	Loss: 1.670551
+Train Epoch: 4 [28160/50000 (56%)]	Loss: 1.533854
+Train Epoch: 4 [28800/50000 (58%)]	Loss: 1.409232
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 4 [29440/50000 (59%)]	Loss: 1.814559
+Train Epoch: 4 [30080/50000 (60%)]	Loss: 1.579914
+Train Epoch: 4 [30720/50000 (61%)]	Loss: 1.477864
+Train Epoch: 4 [31360/50000 (63%)]	Loss: 1.447932
+Train Epoch: 4 [32000/50000 (64%)]	Loss: 1.689134
+Train Epoch: 4 [32640/50000 (65%)]	Loss: 1.504920
+Train Epoch: 4 [33280/50000 (66%)]	Loss: 1.710557
+Train Epoch: 4 [33920/50000 (68%)]	Loss: 1.800678
+Train Epoch: 4 [34560/50000 (69%)]	Loss: 1.476866
+Train Epoch: 4 [35200/50000 (70%)]	Loss: 1.760734
+Train Epoch: 4 [35840/50000 (72%)]	Loss: 1.573687
+Train Epoch: 4 [36480/50000 (73%)]	Loss: 1.511670
+Train Epoch: 4 [37120/50000 (74%)]	Loss: 1.747003
+Train Epoch: 4 [37760/50000 (75%)]	Loss: 1.344768
+Train Epoch: 4 [38400/50000 (77%)]	Loss: 1.988514
+Train Epoch: 4 [39040/50000 (78%)]	Loss: 1.768086
+Train Epoch: 4 [39680/50000 (79%)]	Loss: 1.264353
+Train Epoch: 4 [40320/50000 (81%)]	Loss: 1.320984
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 4 [40960/50000 (82%)]	Loss: 1.478436
+Train Epoch: 4 [41600/50000 (83%)]	Loss: 1.548378
+Train Epoch: 4 [42240/50000 (84%)]	Loss: 1.528949
+Train Epoch: 4 [42880/50000 (86%)]	Loss: 1.292941
+Train Epoch: 4 [43520/50000 (87%)]	Loss: 1.594698
+Train Epoch: 4 [44160/50000 (88%)]	Loss: 1.322699
+Train Epoch: 4 [44800/50000 (90%)]	Loss: 1.473136
+Train Epoch: 4 [45440/50000 (91%)]	Loss: 1.622777
+Train Epoch: 4 [46080/50000 (92%)]	Loss: 1.589254
+Train Epoch: 4 [46720/50000 (93%)]	Loss: 1.474207
+Train Epoch: 4 [47360/50000 (95%)]	Loss: 1.831380
+Train Epoch: 4 [48000/50000 (96%)]	Loss: 1.585580
+Train Epoch: 4 [48640/50000 (97%)]	Loss: 1.603316
+Train Epoch: 4 [49280/50000 (98%)]	Loss: 1.384496
+Train Epoch: 4 [49920/50000 (100%)]	Loss: 1.631277
+Train time for 1 epoch: 313.87286019325256
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+
+Test set: Average loss: 1.6095, Accuracy: 4593/10000 (45%)
+
+Test time for 1 epoch: 11.599130153656006
+Train Epoch: 5 [0/50000 (0%)]	Loss: 1.429510
+Train Epoch: 5 [640/50000 (1%)]	Loss: 2.052788
+Train Epoch: 5 [1280/50000 (3%)]	Loss: 1.630409
+Train Epoch: 5 [1920/50000 (4%)]	Loss: 1.724662
+Train Epoch: 5 [2560/50000 (5%)]	Loss: 1.361583
+Train Epoch: 5 [3200/50000 (6%)]	Loss: 1.794547
+Train Epoch: 5 [3840/50000 (8%)]	Loss: 1.490483
+Train Epoch: 5 [4480/50000 (9%)]	Loss: 1.531667
+Train Epoch: 5 [5120/50000 (10%)]	Loss: 1.589619
+Train Epoch: 5 [5760/50000 (12%)]	Loss: 1.545100
+Train Epoch: 5 [6400/50000 (13%)]	Loss: 1.629163
+Train Epoch: 5 [7040/50000 (14%)]	Loss: 2.136772
+Train Epoch: 5 [7680/50000 (15%)]	Loss: 1.550189
+Train Epoch: 5 [8320/50000 (17%)]	Loss: 1.764656
+Train Epoch: 5 [8960/50000 (18%)]	Loss: 1.349280
+Train Epoch: 5 [9600/50000 (19%)]	Loss: 1.448102
+Train Epoch: 5 [10240/50000 (20%)]	Loss: 2.192450
+Train Epoch: 5 [10880/50000 (22%)]	Loss: 1.433333
+Train Epoch: 5 [11520/50000 (23%)]	Loss: 1.467579
+Train Epoch: 5 [12160/50000 (24%)]	Loss: 1.474398
+Train Epoch: 5 [12800/50000 (26%)]	Loss: 1.432976
+Train Epoch: 5 [13440/50000 (27%)]	Loss: 1.506546
+Train Epoch: 5 [14080/50000 (28%)]	Loss: 1.802329
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 5 [14720/50000 (29%)]	Loss: 1.486819
+Train Epoch: 5 [15360/50000 (31%)]	Loss: 1.495363
+Train Epoch: 5 [16000/50000 (32%)]	Loss: 1.345902
+Train Epoch: 5 [16640/50000 (33%)]	Loss: 1.333121
+Train Epoch: 5 [17280/50000 (35%)]	Loss: 1.031986
+Train Epoch: 5 [17920/50000 (36%)]	Loss: 1.333286
+Train Epoch: 5 [18560/50000 (37%)]	Loss: 1.298816
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 5 [19200/50000 (38%)]	Loss: 1.556246
+Train Epoch: 5 [19840/50000 (40%)]	Loss: 1.614056
+Train Epoch: 5 [20480/50000 (41%)]	Loss: 1.650995
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 5 [21120/50000 (42%)]	Loss: 1.462570
+Train Epoch: 5 [21760/50000 (43%)]	Loss: 1.585720
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 5 [22400/50000 (45%)]	Loss: 1.839703
+Train Epoch: 5 [23040/50000 (46%)]	Loss: 1.418874
+Train Epoch: 5 [23680/50000 (47%)]	Loss: 1.446081
+Train Epoch: 5 [24320/50000 (49%)]	Loss: 1.961143
+Train Epoch: 5 [24960/50000 (50%)]	Loss: 2.026087
+Train Epoch: 5 [25600/50000 (51%)]	Loss: 1.452280
+Train Epoch: 5 [26240/50000 (52%)]	Loss: 1.501484
+Train Epoch: 5 [26880/50000 (54%)]	Loss: 1.327041
+Train Epoch: 5 [27520/50000 (55%)]	Loss: 1.799232
+Train Epoch: 5 [28160/50000 (56%)]	Loss: 1.374479
+Train Epoch: 5 [28800/50000 (58%)]	Loss: 1.618907
+Train Epoch: 5 [29440/50000 (59%)]	Loss: 1.344830
+Train Epoch: 5 [30080/50000 (60%)]	Loss: 1.462200
+Train Epoch: 5 [30720/50000 (61%)]	Loss: 1.773020
+Train Epoch: 5 [31360/50000 (63%)]	Loss: 1.920770
+Train Epoch: 5 [32000/50000 (64%)]	Loss: 1.853462
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 5 [32640/50000 (65%)]	Loss: 2.088076
+Train Epoch: 5 [33280/50000 (66%)]	Loss: 1.679656
+Train Epoch: 5 [33920/50000 (68%)]	Loss: 1.827812
+Train Epoch: 5 [34560/50000 (69%)]	Loss: 1.844473
+Train Epoch: 5 [35200/50000 (70%)]	Loss: 1.547348
+Train Epoch: 5 [35840/50000 (72%)]	Loss: 1.575895
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 5 [36480/50000 (73%)]	Loss: 1.799458
+Train Epoch: 5 [37120/50000 (74%)]	Loss: 1.530104
+Train Epoch: 5 [37760/50000 (75%)]	Loss: 1.660091
+Train Epoch: 5 [38400/50000 (77%)]	Loss: 1.744608
+Train Epoch: 5 [39040/50000 (78%)]	Loss: 1.580520
+Train Epoch: 5 [39680/50000 (79%)]	Loss: 1.748145
+Train Epoch: 5 [40320/50000 (81%)]	Loss: 1.653291
+Train Epoch: 5 [40960/50000 (82%)]	Loss: 1.660850
+Train Epoch: 5 [41600/50000 (83%)]	Loss: 1.783528
+Train Epoch: 5 [42240/50000 (84%)]	Loss: 1.502811
+Train Epoch: 5 [42880/50000 (86%)]	Loss: 1.399243
+Train Epoch: 5 [43520/50000 (87%)]	Loss: 1.430990
+Train Epoch: 5 [44160/50000 (88%)]	Loss: 1.514517
+Train Epoch: 5 [44800/50000 (90%)]	Loss: 1.656190
+Train Epoch: 5 [45440/50000 (91%)]	Loss: 1.230679
+Train Epoch: 5 [46080/50000 (92%)]	Loss: 1.594524
+Train Epoch: 5 [46720/50000 (93%)]	Loss: 1.919671
+Train Epoch: 5 [47360/50000 (95%)]	Loss: 1.660965
+Train Epoch: 5 [48000/50000 (96%)]	Loss: 1.595763
+Train Epoch: 5 [48640/50000 (97%)]	Loss: 1.575043
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 5 [49280/50000 (98%)]	Loss: 1.526779
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 5 [49920/50000 (100%)]	Loss: 1.618546
+Train time for 1 epoch: 176.42242884635925
+
+Test set: Average loss: 1.5186, Accuracy: 4527/10000 (45%)
+
+Test time for 1 epoch: 6.484436750411987
+Train Epoch: 6 [0/50000 (0%)]	Loss: 1.529911
+Train Epoch: 6 [640/50000 (1%)]	Loss: 1.566655
+Train Epoch: 6 [1280/50000 (3%)]	Loss: 1.668546
+Train Epoch: 6 [1920/50000 (4%)]	Loss: 1.522829
+Train Epoch: 6 [2560/50000 (5%)]	Loss: 1.568695
+Train Epoch: 6 [3200/50000 (6%)]	Loss: 1.487240
+Train Epoch: 6 [3840/50000 (8%)]	Loss: 1.572013
+Train Epoch: 6 [4480/50000 (9%)]	Loss: 1.994696
+Train Epoch: 6 [5120/50000 (10%)]	Loss: 1.684583
+Train Epoch: 6 [5760/50000 (12%)]	Loss: 1.434450
+Train Epoch: 6 [6400/50000 (13%)]	Loss: 1.809265
+Train Epoch: 6 [7040/50000 (14%)]	Loss: 1.469950
+Train Epoch: 6 [7680/50000 (15%)]	Loss: 1.506562
+Train Epoch: 6 [8320/50000 (17%)]	Loss: 1.441129
+Train Epoch: 6 [8960/50000 (18%)]	Loss: 1.731875
+Train Epoch: 6 [9600/50000 (19%)]	Loss: 1.447562
+Train Epoch: 6 [10240/50000 (20%)]	Loss: 1.263147
+Train Epoch: 6 [10880/50000 (22%)]	Loss: 1.152369
+Train Epoch: 6 [11520/50000 (23%)]	Loss: 1.616382
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 6 [12160/50000 (24%)]	Loss: 1.599594
+Train Epoch: 6 [12800/50000 (26%)]	Loss: 1.424866
+Train Epoch: 6 [13440/50000 (27%)]	Loss: 1.261992
+Train Epoch: 6 [14080/50000 (28%)]	Loss: 1.743042
+Train Epoch: 6 [14720/50000 (29%)]	Loss: 1.539018
+Train Epoch: 6 [15360/50000 (31%)]	Loss: 1.200967
+Train Epoch: 6 [16000/50000 (32%)]	Loss: 1.431754
+Train Epoch: 6 [16640/50000 (33%)]	Loss: 1.707497
+Train Epoch: 6 [17280/50000 (35%)]	Loss: 1.733705
+Train Epoch: 6 [17920/50000 (36%)]	Loss: 1.475950
+Train Epoch: 6 [18560/50000 (37%)]	Loss: 1.300896
+Train Epoch: 6 [19200/50000 (38%)]	Loss: 1.974835
+Train Epoch: 6 [19840/50000 (40%)]	Loss: 1.630849
+Train Epoch: 6 [20480/50000 (41%)]	Loss: 1.954475
+Train Epoch: 6 [21120/50000 (42%)]	Loss: 1.800436
+Train Epoch: 6 [21760/50000 (43%)]	Loss: 1.755589
+Train Epoch: 6 [22400/50000 (45%)]	Loss: 1.613986
+Train Epoch: 6 [23040/50000 (46%)]	Loss: 1.759100
+Train Epoch: 6 [23680/50000 (47%)]	Loss: 2.178108
+Train Epoch: 6 [24320/50000 (49%)]	Loss: 1.862897
+Train Epoch: 6 [24960/50000 (50%)]	Loss: 1.777395
+Train Epoch: 6 [25600/50000 (51%)]	Loss: 1.751114
+Train Epoch: 6 [26240/50000 (52%)]	Loss: 1.909029
+Train Epoch: 6 [26880/50000 (54%)]	Loss: 1.797593
+Train Epoch: 6 [27520/50000 (55%)]	Loss: 1.910813
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 6 [28160/50000 (56%)]	Loss: 1.643512
+Train Epoch: 6 [28800/50000 (58%)]	Loss: 1.750914
+Train Epoch: 6 [29440/50000 (59%)]	Loss: 1.877416
+Train Epoch: 6 [30080/50000 (60%)]	Loss: 1.825476
+Train Epoch: 6 [30720/50000 (61%)]	Loss: 2.000046
+Train Epoch: 6 [31360/50000 (63%)]	Loss: 1.506070
+Train Epoch: 6 [32000/50000 (64%)]	Loss: 1.711991
+Train Epoch: 6 [32640/50000 (65%)]	Loss: 1.874873
+Train Epoch: 6 [33280/50000 (66%)]	Loss: 1.714128
+Train Epoch: 6 [33920/50000 (68%)]	Loss: 1.397840
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 6 [34560/50000 (69%)]	Loss: 1.503376
+Train Epoch: 6 [35200/50000 (70%)]	Loss: 1.574405
+Train Epoch: 6 [35840/50000 (72%)]	Loss: 1.786461
+Train Epoch: 6 [36480/50000 (73%)]	Loss: 1.464630
+Train Epoch: 6 [37120/50000 (74%)]	Loss: 1.622500
+Train Epoch: 6 [37760/50000 (75%)]	Loss: 1.704778
+Train Epoch: 6 [38400/50000 (77%)]	Loss: 1.456809
+Train Epoch: 6 [39040/50000 (78%)]	Loss: 1.537247
+Train Epoch: 6 [39680/50000 (79%)]	Loss: 1.324758
+Train Epoch: 6 [40320/50000 (81%)]	Loss: 1.723945
+Train Epoch: 6 [40960/50000 (82%)]	Loss: 1.307633
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 6 [41600/50000 (83%)]	Loss: 1.747203
+Train Epoch: 6 [42240/50000 (84%)]	Loss: 1.784072
+Train Epoch: 6 [42880/50000 (86%)]	Loss: 1.589097
+Train Epoch: 6 [43520/50000 (87%)]	Loss: 1.710848
+Train Epoch: 6 [44160/50000 (88%)]	Loss: 1.420529
+Train Epoch: 6 [44800/50000 (90%)]	Loss: 1.524788
+Train Epoch: 6 [45440/50000 (91%)]	Loss: 1.552646
+Train Epoch: 6 [46080/50000 (92%)]	Loss: 1.589514
+Train Epoch: 6 [46720/50000 (93%)]	Loss: 1.632208
+Train Epoch: 6 [47360/50000 (95%)]	Loss: 1.662150
+Train Epoch: 6 [48000/50000 (96%)]	Loss: 1.574496
+Train Epoch: 6 [48640/50000 (97%)]	Loss: 1.634297
+Train Epoch: 6 [49280/50000 (98%)]	Loss: 1.301928
+Train Epoch: 6 [49920/50000 (100%)]	Loss: 1.481434
+Train time for 1 epoch: 167.12686276435852
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+
+Test set: Average loss: 1.6861, Accuracy: 4702/10000 (47%)
+
+Test time for 1 epoch: 6.492081165313721
+Train Epoch: 7 [0/50000 (0%)]	Loss: 1.587026
+Train Epoch: 7 [640/50000 (1%)]	Loss: 1.665008
+Train Epoch: 7 [1280/50000 (3%)]	Loss: 1.263012
+Train Epoch: 7 [1920/50000 (4%)]	Loss: 1.418375
+Train Epoch: 7 [2560/50000 (5%)]	Loss: 1.386459
+Train Epoch: 7 [3200/50000 (6%)]	Loss: 1.440132
+Train Epoch: 7 [3840/50000 (8%)]	Loss: 1.399993
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 7 [4480/50000 (9%)]	Loss: 1.503773
+Train Epoch: 7 [5120/50000 (10%)]	Loss: 1.562153
+Train Epoch: 7 [5760/50000 (12%)]	Loss: 1.877697
+Train Epoch: 7 [6400/50000 (13%)]	Loss: 1.525140
+Train Epoch: 7 [7040/50000 (14%)]	Loss: 1.256876
+Train Epoch: 7 [7680/50000 (15%)]	Loss: 1.766655
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 7 [8320/50000 (17%)]	Loss: 1.305678
+Train Epoch: 7 [8960/50000 (18%)]	Loss: 1.361698
+Train Epoch: 7 [9600/50000 (19%)]	Loss: 1.585986
+Train Epoch: 7 [10240/50000 (20%)]	Loss: 1.572465
+Train Epoch: 7 [10880/50000 (22%)]	Loss: 1.274886
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 7 [11520/50000 (23%)]	Loss: 1.355756
+Train Epoch: 7 [12160/50000 (24%)]	Loss: 1.457340
+Train Epoch: 7 [12800/50000 (26%)]	Loss: 1.679321
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 7 [13440/50000 (27%)]	Loss: 1.499576
+Train Epoch: 7 [14080/50000 (28%)]	Loss: 1.320235
+Train Epoch: 7 [14720/50000 (29%)]	Loss: 1.863362
+Train Epoch: 7 [15360/50000 (31%)]	Loss: 1.664601
+Train Epoch: 7 [16000/50000 (32%)]	Loss: 1.410413
+Train Epoch: 7 [16640/50000 (33%)]	Loss: 1.555201
+Train Epoch: 7 [17280/50000 (35%)]	Loss: 1.436024
+Train Epoch: 7 [17920/50000 (36%)]	Loss: 1.509875
+Train Epoch: 7 [18560/50000 (37%)]	Loss: 1.639613
+Train Epoch: 7 [19200/50000 (38%)]	Loss: 1.505616
+Train Epoch: 7 [19840/50000 (40%)]	Loss: 1.547750
+Train Epoch: 7 [20480/50000 (41%)]	Loss: 1.590780
+Train Epoch: 7 [21120/50000 (42%)]	Loss: 1.518796
+Train Epoch: 7 [21760/50000 (43%)]	Loss: 1.334604
+Train Epoch: 7 [22400/50000 (45%)]	Loss: 1.562323
+Train Epoch: 7 [23040/50000 (46%)]	Loss: 1.315353
+Train Epoch: 7 [23680/50000 (47%)]	Loss: 1.424073
+Train Epoch: 7 [24320/50000 (49%)]	Loss: 1.488523
+Train Epoch: 7 [24960/50000 (50%)]	Loss: 1.768480
+Train Epoch: 7 [25600/50000 (51%)]	Loss: 1.562111
+Train Epoch: 7 [26240/50000 (52%)]	Loss: 1.673322
+Train Epoch: 7 [26880/50000 (54%)]	Loss: 1.265552
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 7 [27520/50000 (55%)]	Loss: 1.771921
+Train Epoch: 7 [28160/50000 (56%)]	Loss: 1.434105
+Train Epoch: 7 [28800/50000 (58%)]	Loss: 1.530211
+Train Epoch: 7 [29440/50000 (59%)]	Loss: 1.255147
+Train Epoch: 7 [30080/50000 (60%)]	Loss: 1.389827
+Train Epoch: 7 [30720/50000 (61%)]	Loss: 1.649921
+Train Epoch: 7 [31360/50000 (63%)]	Loss: 1.576723
+Train Epoch: 7 [32000/50000 (64%)]	Loss: 1.357811
+Train Epoch: 7 [32640/50000 (65%)]	Loss: 1.627374
+Train Epoch: 7 [33280/50000 (66%)]	Loss: 1.636676
+Train Epoch: 7 [33920/50000 (68%)]	Loss: 1.424780
+Train Epoch: 7 [34560/50000 (69%)]	Loss: 1.491086
+Train Epoch: 7 [35200/50000 (70%)]	Loss: 1.388720
+Train Epoch: 7 [35840/50000 (72%)]	Loss: 1.760834
+Train Epoch: 7 [36480/50000 (73%)]	Loss: 1.347641
+Train Epoch: 7 [37120/50000 (74%)]	Loss: 1.396858
+Train Epoch: 7 [37760/50000 (75%)]	Loss: 1.266441
+Train Epoch: 7 [38400/50000 (77%)]	Loss: 1.449816
+Train Epoch: 7 [39040/50000 (78%)]	Loss: 1.385678
+Train Epoch: 7 [39680/50000 (79%)]	Loss: 1.282621
+Train Epoch: 7 [40320/50000 (81%)]	Loss: 1.539749
+Train Epoch: 7 [40960/50000 (82%)]	Loss: 1.427698
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 7 [41600/50000 (83%)]	Loss: 1.448585
+Train Epoch: 7 [42240/50000 (84%)]	Loss: 1.320844
+Train Epoch: 7 [42880/50000 (86%)]	Loss: 1.435616
+Train Epoch: 7 [43520/50000 (87%)]	Loss: 1.253497
+Train Epoch: 7 [44160/50000 (88%)]	Loss: 1.459561
+Train Epoch: 7 [44800/50000 (90%)]	Loss: 1.756370
+Train Epoch: 7 [45440/50000 (91%)]	Loss: 1.275193
+Train Epoch: 7 [46080/50000 (92%)]	Loss: 1.279981
+Train Epoch: 7 [46720/50000 (93%)]	Loss: 1.390975
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 7 [47360/50000 (95%)]	Loss: 1.491937
+Train Epoch: 7 [48000/50000 (96%)]	Loss: 1.715910
+Train Epoch: 7 [48640/50000 (97%)]	Loss: 1.317779
+Train Epoch: 7 [49280/50000 (98%)]	Loss: 1.472261
+Train Epoch: 7 [49920/50000 (100%)]	Loss: 1.233463
+Train time for 1 epoch: 176.00621128082275
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+
+Test set: Average loss: 1.6018, Accuracy: 5040/10000 (50%)
+
+Test time for 1 epoch: 6.600200176239014
+Train Epoch: 8 [0/50000 (0%)]	Loss: 1.348273
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 8 [640/50000 (1%)]	Loss: 1.585854
+Train Epoch: 8 [1280/50000 (3%)]	Loss: 1.379874
+Train Epoch: 8 [1920/50000 (4%)]	Loss: 1.623291
+Train Epoch: 8 [2560/50000 (5%)]	Loss: 1.596538
+Train Epoch: 8 [3200/50000 (6%)]	Loss: 1.499312
+Train Epoch: 8 [3840/50000 (8%)]	Loss: 1.189664
+Train Epoch: 8 [4480/50000 (9%)]	Loss: 1.711693
+Train Epoch: 8 [5120/50000 (10%)]	Loss: 1.434661
+Train Epoch: 8 [5760/50000 (12%)]	Loss: 1.721668
+Train Epoch: 8 [6400/50000 (13%)]	Loss: 1.322507
+Train Epoch: 8 [7040/50000 (14%)]	Loss: 1.088884
+Train Epoch: 8 [7680/50000 (15%)]	Loss: 1.322290
+Train Epoch: 8 [8320/50000 (17%)]	Loss: 1.307958
+Train Epoch: 8 [8960/50000 (18%)]	Loss: 1.398904
+Train Epoch: 8 [9600/50000 (19%)]	Loss: 1.220365
+Train Epoch: 8 [10240/50000 (20%)]	Loss: 1.426454
+Train Epoch: 8 [10880/50000 (22%)]	Loss: 1.535453
+Train Epoch: 8 [11520/50000 (23%)]	Loss: 1.266787
+Train Epoch: 8 [12160/50000 (24%)]	Loss: 1.361814
+Train Epoch: 8 [12800/50000 (26%)]	Loss: 1.791747
+Train Epoch: 8 [13440/50000 (27%)]	Loss: 1.486677
+Train Epoch: 8 [14080/50000 (28%)]	Loss: 1.568125
+Train Epoch: 8 [14720/50000 (29%)]	Loss: 1.650537
+Train Epoch: 8 [15360/50000 (31%)]	Loss: 1.681599
+Train Epoch: 8 [16000/50000 (32%)]	Loss: 1.873422
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 8 [16640/50000 (33%)]	Loss: 1.600042
+Train Epoch: 8 [17280/50000 (35%)]	Loss: 1.404054
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 8 [17920/50000 (36%)]	Loss: 1.456330
+Train Epoch: 8 [18560/50000 (37%)]	Loss: 1.416007
+Train Epoch: 8 [19200/50000 (38%)]	Loss: 1.549066
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 8 [19840/50000 (40%)]	Loss: 1.462540
+Train Epoch: 8 [20480/50000 (41%)]	Loss: 1.416385
+Train Epoch: 8 [21120/50000 (42%)]	Loss: 1.732318
+Train Epoch: 8 [21760/50000 (43%)]	Loss: 1.443248
+Train Epoch: 8 [22400/50000 (45%)]	Loss: 1.490604
+Train Epoch: 8 [23040/50000 (46%)]	Loss: 1.304787
+Train Epoch: 8 [23680/50000 (47%)]	Loss: 1.591477
+Train Epoch: 8 [24320/50000 (49%)]	Loss: 1.291851
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 8 [24960/50000 (50%)]	Loss: 1.681268
+Train Epoch: 8 [25600/50000 (51%)]	Loss: 1.408700
+Train Epoch: 8 [26240/50000 (52%)]	Loss: 1.393451
+Train Epoch: 8 [26880/50000 (54%)]	Loss: 1.437554
+Train Epoch: 8 [27520/50000 (55%)]	Loss: 1.451358
+Train Epoch: 8 [28160/50000 (56%)]	Loss: 1.797212
+Train Epoch: 8 [28800/50000 (58%)]	Loss: 1.198770
+Train Epoch: 8 [29440/50000 (59%)]	Loss: 1.196434
+Train Epoch: 8 [30080/50000 (60%)]	Loss: 1.748342
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 8 [30720/50000 (61%)]	Loss: 1.540877
+Train Epoch: 8 [31360/50000 (63%)]	Loss: 1.373955
+Train Epoch: 8 [32000/50000 (64%)]	Loss: 1.387035
+Train Epoch: 8 [32640/50000 (65%)]	Loss: 1.435618
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 8 [33280/50000 (66%)]	Loss: 1.253301
+Train Epoch: 8 [33920/50000 (68%)]	Loss: 1.560928
+Train Epoch: 8 [34560/50000 (69%)]	Loss: 1.254767
+Train Epoch: 8 [35200/50000 (70%)]	Loss: 1.300092
+Train Epoch: 8 [35840/50000 (72%)]	Loss: 1.194375
+Train Epoch: 8 [36480/50000 (73%)]	Loss: 1.689811
+Train Epoch: 8 [37120/50000 (74%)]	Loss: 1.537124
+Train Epoch: 8 [37760/50000 (75%)]	Loss: 1.190111
+Train Epoch: 8 [38400/50000 (77%)]	Loss: 1.436577
+Train Epoch: 8 [39040/50000 (78%)]	Loss: 1.498083
+Train Epoch: 8 [39680/50000 (79%)]	Loss: 1.448000
+Train Epoch: 8 [40320/50000 (81%)]	Loss: 1.282892
+Train Epoch: 8 [40960/50000 (82%)]	Loss: 1.496760
+Train Epoch: 8 [41600/50000 (83%)]	Loss: 1.357140
+Train Epoch: 8 [42240/50000 (84%)]	Loss: 1.331915
+Train Epoch: 8 [42880/50000 (86%)]	Loss: 1.413326
+Train Epoch: 8 [43520/50000 (87%)]	Loss: 1.239311
+Train Epoch: 8 [44160/50000 (88%)]	Loss: 1.426316
+Train Epoch: 8 [44800/50000 (90%)]	Loss: 1.805371
+Train Epoch: 8 [45440/50000 (91%)]	Loss: 1.429569
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 8 [46080/50000 (92%)]	Loss: 1.267021
+Train Epoch: 8 [46720/50000 (93%)]	Loss: 1.329511
+Train Epoch: 8 [47360/50000 (95%)]	Loss: 1.281917
+Train Epoch: 8 [48000/50000 (96%)]	Loss: 1.362602
+Train Epoch: 8 [48640/50000 (97%)]	Loss: 1.313078
+Train Epoch: 8 [49280/50000 (98%)]	Loss: 1.547522
+Train Epoch: 8 [49920/50000 (100%)]	Loss: 1.222576
+Train time for 1 epoch: 177.00168633460999
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+
+Test set: Average loss: 1.5246, Accuracy: 4969/10000 (49%)
+
+Test time for 1 epoch: 6.523050546646118
+Train Epoch: 9 [0/50000 (0%)]	Loss: 1.485494
+Train Epoch: 9 [640/50000 (1%)]	Loss: 1.625429
+Train Epoch: 9 [1280/50000 (3%)]	Loss: 1.545924
+Train Epoch: 9 [1920/50000 (4%)]	Loss: 1.319489
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 9 [2560/50000 (5%)]	Loss: 1.457006
+Train Epoch: 9 [3200/50000 (6%)]	Loss: 1.352229
+Train Epoch: 9 [3840/50000 (8%)]	Loss: 1.185156
+Train Epoch: 9 [4480/50000 (9%)]	Loss: 1.457158
+Train Epoch: 9 [5120/50000 (10%)]	Loss: 1.489365
+Train Epoch: 9 [5760/50000 (12%)]	Loss: 1.277395
+Train Epoch: 9 [6400/50000 (13%)]	Loss: 1.383402
+Train Epoch: 9 [7040/50000 (14%)]	Loss: 1.244523
+Train Epoch: 9 [7680/50000 (15%)]	Loss: 1.135226
+Train Epoch: 9 [8320/50000 (17%)]	Loss: 1.388284
+Train Epoch: 9 [8960/50000 (18%)]	Loss: 1.301204
+Train Epoch: 9 [9600/50000 (19%)]	Loss: 1.410907
+Train Epoch: 9 [10240/50000 (20%)]	Loss: 1.490423
+Train Epoch: 9 [10880/50000 (22%)]	Loss: 1.319636
+Train Epoch: 9 [11520/50000 (23%)]	Loss: 1.425337
+Train Epoch: 9 [12160/50000 (24%)]	Loss: 1.471575
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 9 [12800/50000 (26%)]	Loss: 1.812604
+Train Epoch: 9 [13440/50000 (27%)]	Loss: 1.315983
+Train Epoch: 9 [14080/50000 (28%)]	Loss: 1.075089
+Train Epoch: 9 [14720/50000 (29%)]	Loss: 1.483226
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 9 [15360/50000 (31%)]	Loss: 2.027376
+Train Epoch: 9 [16000/50000 (32%)]	Loss: 1.168020
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 9 [16640/50000 (33%)]	Loss: 1.253984
+Train Epoch: 9 [17280/50000 (35%)]	Loss: 1.277951
+Train Epoch: 9 [17920/50000 (36%)]	Loss: 1.760695
+Train Epoch: 9 [18560/50000 (37%)]	Loss: 1.380491
+Train Epoch: 9 [19200/50000 (38%)]	Loss: 1.443778
+Train Epoch: 9 [19840/50000 (40%)]	Loss: 1.596059
+Train Epoch: 9 [20480/50000 (41%)]	Loss: 1.498936
+Train Epoch: 9 [21120/50000 (42%)]	Loss: 1.412724
+Train Epoch: 9 [21760/50000 (43%)]	Loss: 1.376277
+Train Epoch: 9 [22400/50000 (45%)]	Loss: 1.232919
+Train Epoch: 9 [23040/50000 (46%)]	Loss: 1.116076
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 9 [23680/50000 (47%)]	Loss: 1.569558
+Train Epoch: 9 [24320/50000 (49%)]	Loss: 1.281482
+Train Epoch: 9 [24960/50000 (50%)]	Loss: 1.393875
+Train Epoch: 9 [25600/50000 (51%)]	Loss: 1.398155
+Train Epoch: 9 [26240/50000 (52%)]	Loss: 1.624350
+Train Epoch: 9 [26880/50000 (54%)]	Loss: 1.403361
+Train Epoch: 9 [27520/50000 (55%)]	Loss: 1.597249
+Train Epoch: 9 [28160/50000 (56%)]	Loss: 1.811989
+Train Epoch: 9 [28800/50000 (58%)]	Loss: 1.280749
+Train Epoch: 9 [29440/50000 (59%)]	Loss: 1.365262
+Train Epoch: 9 [30080/50000 (60%)]	Loss: 1.442763
+Train Epoch: 9 [30720/50000 (61%)]	Loss: 1.545012
+Train Epoch: 9 [31360/50000 (63%)]	Loss: 1.700802
+Train Epoch: 9 [32000/50000 (64%)]	Loss: 1.292557
+Train Epoch: 9 [32640/50000 (65%)]	Loss: 1.691455
+Train Epoch: 9 [33280/50000 (66%)]	Loss: 1.367001
+Train Epoch: 9 [33920/50000 (68%)]	Loss: 1.807985
+Train Epoch: 9 [34560/50000 (69%)]	Loss: 1.579397
+Train Epoch: 9 [35200/50000 (70%)]	Loss: 1.468544
+Train Epoch: 9 [35840/50000 (72%)]	Loss: 1.555668
+Train Epoch: 9 [36480/50000 (73%)]	Loss: 1.371831
+Train Epoch: 9 [37120/50000 (74%)]	Loss: 1.651792
+Train Epoch: 9 [37760/50000 (75%)]	Loss: 1.674106
+Train Epoch: 9 [38400/50000 (77%)]	Loss: 1.360779
+Train Epoch: 9 [39040/50000 (78%)]	Loss: 1.544054
+Train Epoch: 9 [39680/50000 (79%)]	Loss: 1.473690
+Train Epoch: 9 [40320/50000 (81%)]	Loss: 1.122144
+Train Epoch: 9 [40960/50000 (82%)]	Loss: 1.324996
+Train Epoch: 9 [41600/50000 (83%)]	Loss: 1.473975
+Train Epoch: 9 [42240/50000 (84%)]	Loss: 1.280208
+Train Epoch: 9 [42880/50000 (86%)]	Loss: 1.956746
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 9 [43520/50000 (87%)]	Loss: 1.312702
+Train Epoch: 9 [44160/50000 (88%)]	Loss: 1.276679
+Train Epoch: 9 [44800/50000 (90%)]	Loss: 1.363141
+Train Epoch: 9 [45440/50000 (91%)]	Loss: 1.723112
+Train Epoch: 9 [46080/50000 (92%)]	Loss: 1.195490
+Train Epoch: 9 [46720/50000 (93%)]	Loss: 1.443560
+Train Epoch: 9 [47360/50000 (95%)]	Loss: 1.200793
+Train Epoch: 9 [48000/50000 (96%)]	Loss: 1.277288
+Train Epoch: 9 [48640/50000 (97%)]	Loss: 1.417819
+Train Epoch: 9 [49280/50000 (98%)]	Loss: 1.813134
+Train Epoch: 9 [49920/50000 (100%)]	Loss: 1.217500
+Train time for 1 epoch: 176.35044193267822
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+
+Test set: Average loss: 1.7393, Accuracy: 4927/10000 (49%)
+
+Test time for 1 epoch: 6.514331817626953
+Train Epoch: 10 [0/50000 (0%)]	Loss: 1.371891
+Train Epoch: 10 [640/50000 (1%)]	Loss: 1.315441
+Train Epoch: 10 [1280/50000 (3%)]	Loss: 1.443875
+Train Epoch: 10 [1920/50000 (4%)]	Loss: 1.378253
+Train Epoch: 10 [2560/50000 (5%)]	Loss: 1.323296
+Train Epoch: 10 [3200/50000 (6%)]	Loss: 1.574807
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 10 [3840/50000 (8%)]	Loss: 1.346598
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 10 [4480/50000 (9%)]	Loss: 1.598440
+Train Epoch: 10 [5120/50000 (10%)]	Loss: 1.496025
+Train Epoch: 10 [5760/50000 (12%)]	Loss: 1.223689
+Train Epoch: 10 [6400/50000 (13%)]	Loss: 1.684213
+Train Epoch: 10 [7040/50000 (14%)]	Loss: 1.940617
+Train Epoch: 10 [7680/50000 (15%)]	Loss: 1.760238
+Train Epoch: 10 [8320/50000 (17%)]	Loss: 1.735057
+Train Epoch: 10 [8960/50000 (18%)]	Loss: 1.997332
+Train Epoch: 10 [9600/50000 (19%)]	Loss: 1.522583
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 10 [10240/50000 (20%)]	Loss: 1.676211
+Train Epoch: 10 [10880/50000 (22%)]	Loss: 1.649705
+Train Epoch: 10 [11520/50000 (23%)]	Loss: 1.643582
+Train Epoch: 10 [12160/50000 (24%)]	Loss: 1.669388
+Train Epoch: 10 [12800/50000 (26%)]	Loss: 1.366476
+Train Epoch: 10 [13440/50000 (27%)]	Loss: 1.484861
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 10 [14080/50000 (28%)]	Loss: 1.431861
+Train Epoch: 10 [14720/50000 (29%)]	Loss: 1.839901
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 10 [15360/50000 (31%)]	Loss: 1.719877
+Train Epoch: 10 [16000/50000 (32%)]	Loss: 1.591754
+Train Epoch: 10 [16640/50000 (33%)]	Loss: 1.599470
+Train Epoch: 10 [17280/50000 (35%)]	Loss: 1.629865
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 10 [17920/50000 (36%)]	Loss: 1.782491
+Train Epoch: 10 [18560/50000 (37%)]	Loss: 1.802989
+Train Epoch: 10 [19200/50000 (38%)]	Loss: 1.411992
+Train Epoch: 10 [19840/50000 (40%)]	Loss: 1.814074
+Train Epoch: 10 [20480/50000 (41%)]	Loss: 1.651943
+Train Epoch: 10 [21120/50000 (42%)]	Loss: 1.512669
+Train Epoch: 10 [21760/50000 (43%)]	Loss: 1.643687
+Train Epoch: 10 [22400/50000 (45%)]	Loss: 1.393570
+Train Epoch: 10 [23040/50000 (46%)]	Loss: 1.552149
+Train Epoch: 10 [23680/50000 (47%)]	Loss: 1.612274
+Train Epoch: 10 [24320/50000 (49%)]	Loss: 1.610198
+Train Epoch: 10 [24960/50000 (50%)]	Loss: 1.770995
+Train Epoch: 10 [25600/50000 (51%)]	Loss: 1.973786
+Train Epoch: 10 [26240/50000 (52%)]	Loss: 1.643342
+Train Epoch: 10 [26880/50000 (54%)]	Loss: 1.678535
+Train Epoch: 10 [27520/50000 (55%)]	Loss: 2.016208
+Train Epoch: 10 [28160/50000 (56%)]	Loss: 1.900817
+Train Epoch: 10 [28800/50000 (58%)]	Loss: 1.614008
+Train Epoch: 10 [29440/50000 (59%)]	Loss: 1.603701
+Train Epoch: 10 [30080/50000 (60%)]	Loss: 1.428642
+Train Epoch: 10 [30720/50000 (61%)]	Loss: 1.499074
+Train Epoch: 10 [31360/50000 (63%)]	Loss: 1.754762
+Train Epoch: 10 [32000/50000 (64%)]	Loss: 1.461995
+Train Epoch: 10 [32640/50000 (65%)]	Loss: 1.756811
+Train Epoch: 10 [33280/50000 (66%)]	Loss: 1.882410
+Train Epoch: 10 [33920/50000 (68%)]	Loss: 1.599242
+Train Epoch: 10 [34560/50000 (69%)]	Loss: 2.027415
+Train Epoch: 10 [35200/50000 (70%)]	Loss: 1.564350
+Train Epoch: 10 [35840/50000 (72%)]	Loss: 1.512903
+Train Epoch: 10 [36480/50000 (73%)]	Loss: 1.584012
+Train Epoch: 10 [37120/50000 (74%)]	Loss: 1.451597
+Train Epoch: 10 [37760/50000 (75%)]	Loss: 1.489212
+Train Epoch: 10 [38400/50000 (77%)]	Loss: 1.321316
+Train Epoch: 10 [39040/50000 (78%)]	Loss: 1.531256
+Train Epoch: 10 [39680/50000 (79%)]	Loss: 1.963560
+Train Epoch: 10 [40320/50000 (81%)]	Loss: 1.505899
+Train Epoch: 10 [40960/50000 (82%)]	Loss: 1.664116
+Train Epoch: 10 [41600/50000 (83%)]	Loss: 1.321583
+Train Epoch: 10 [42240/50000 (84%)]	Loss: 1.429838
+Train Epoch: 10 [42880/50000 (86%)]	Loss: 1.447059
+Train Epoch: 10 [43520/50000 (87%)]	Loss: 1.534447
+Train Epoch: 10 [44160/50000 (88%)]	Loss: 1.397809
+Train Epoch: 10 [44800/50000 (90%)]	Loss: 1.333857
+Train Epoch: 10 [45440/50000 (91%)]	Loss: 1.462582
+Train Epoch: 10 [46080/50000 (92%)]	Loss: 1.390519
+Train Epoch: 10 [46720/50000 (93%)]	Loss: 1.526565
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+Train Epoch: 10 [47360/50000 (95%)]	Loss: 1.702905
+Train Epoch: 10 [48000/50000 (96%)]	Loss: 1.569714
+Train Epoch: 10 [48640/50000 (97%)]	Loss: 1.577024
+Train Epoch: 10 [49280/50000 (98%)]	Loss: 1.475170
+Train Epoch: 10 [49920/50000 (100%)]	Loss: 1.515009
+Train time for 1 epoch: 167.4376928806305
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+with seq 1, GPU mem: 1786327552
+with seq 2, GPU mem: 1786327552
+
+Test set: Average loss: 1.4491, Accuracy: 4867/10000 (48%)
+
+Test time for 1 epoch: 5.49591064453125
